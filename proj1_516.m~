@@ -25,20 +25,19 @@ end
 
 function [avg_cl,avg_cd,avg_cm] = readAoA(AoA)
 
-disp(AoA)
 cd = importdata([num2str(AoA), '_deg/report-drag-rfile.out']);
 cl = importdata([num2str(AoA), '_deg/report-lift-rfile.out']);
 cm = importdata([num2str(AoA), '_deg/report-mom-rfile.out']);
 
-cd = cd.data(:,2);
-cl = cl.data(:,2);
-cm = cm.data(:,2);
+cd = cd.data;
+cl = cl.data;
+cm = cm.data;
 
 n = 200;    % averaging over the last 200 points
 
-avg_cd = sum(cd(end-200:end))/(n+1);
-avg_cl = sum(cl(end-200:end))/(n+1);
-avg_cm = sum(cm(end-200:end))/(n+1);
+avg_cd = cd(end-200:end)/n;
+avg_cl = cl(end-200:end)/n;
+avg_cm = cm(end-200:end)/n;
 
 end
 
@@ -53,7 +52,7 @@ cm = data(5,:);
 
 end
 
-function graph_comparison(aoa,cl,cd,cm,aoa2,cl2,cd2,cm2)
+function graph_comparison()
 
 % Cl, Cd, Cm
 
@@ -62,7 +61,6 @@ plot(aoa,cl,aoa2,cl2,aoa,cd,aoa2,cd2,aoa,cm,aoa2,cm2);
 title('Aerodynamic Coefficients vs. AoA');
 legend('C_l CFD','C_l Xfoil','C_d CFD','C_d Xfoil','C_m CFD','C_m Xfoil');
 
-% L/D
 subplot(1,2,2)
 plot(aoa,cl./cd,aoa2,cl2./cd2);
 title('L/D ratio vs. AoA');
