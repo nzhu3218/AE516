@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  15 JAN 2020 12:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  15 JAN 2020 23:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -218,28 +218,43 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 9.
-)
-(./02_methods.tex) (./03_results.tex) (./04_discuss.tex)
+<general_images/airfoil_image.jpg, id=1, 569.12625pt x 255.20343pt>
+File: general_images/airfoil_image.jpg Graphic file (type jpg)
+<use general_images/airfoil_image.jpg>
+Package pdftex.def Info: general_images/airfoil_image.jpg  used on input line 1
+6.
+(pdftex.def)             Requested size: 469.75502pt x 210.65445pt.
 
-Package natbib Warning: Citation `adams1995hitchhiker' on page 1 undefined on i
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 21.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 34.
+
+) (./02_methods.tex) (./03_results.tex [1
+
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./gener
+al_images/airfoil_image.jpg>])
+(./04_discuss.tex)
+
+Package natbib Warning: Citation `adams1995hitchhiker' on page 2 undefined on i
 nput line 32.
 
 No file main.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-[1
-
-{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 2336 strings out of 492616
- 33309 string characters out of 6129482
- 106887 words of memory out of 5000000
- 6228 multiletter control sequences out of 15000+600000
+ 2345 strings out of 492616
+ 33510 string characters out of 6129482
+ 106895 words of memory out of 5000000
+ 6233 multiletter control sequences out of 15000+600000
  7588 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,32p,271b,213s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,9n,32p,271b,217s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts
@@ -247,13 +262,14 @@ s/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts
 cm/cmmi7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.
-pfb>
-Output written on main.pdf (2 pages, 92870 bytes).
+17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
+pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+>
+Output written on main.pdf (2 pages, 121235 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 52 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
