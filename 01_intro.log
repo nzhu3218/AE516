@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  15 JAN 2020 23:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  17 JAN 2020 11:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -530,7 +530,6 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no 8 in font nullfont!
 Missing character: There is no 8 in font nullfont!
 Missing character: There is no m in font nullfont!
-Missing character: There is no / in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no V in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -552,9 +551,7 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no k in font nullfont!
 Missing character: There is no g in font nullfont!
-Missing character: There is no / in font nullfont!
 Missing character: There is no m in font nullfont!
-Missing character: There is no - in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no R in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -568,12 +565,6 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no 3 in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no 5 in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no / in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no s in font nullfont!
 
 ! LaTeX Error: \begin{document} ended by \end{table}.
 
@@ -581,12 +572,37 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31 \end{table}
+l.32 \end{table}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 21--33
+[]
+ []
+
+
+Overfull \hbox (21.47232pt too wide) in paragraph at lines 21--33
+[]
+ []
+
+
+! LaTeX Error: Environment table undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \begin{table}
+                  []
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no ] in font nullfont!
 
 ! LaTeX Error: \caption outside float.
 
@@ -594,8 +610,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32 \caption
-             {XFoil Predictions}
+l.35 \caption
+             {XFoil Predictions, Re = 1e9, ncrit = 9}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -615,35 +631,26 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no s in font nullfont!
-
-! LaTeX Error: Environment table undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 \begin{table}
-                  []
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no ] in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 9 in font nullfont!
 Missing character: There is no V in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no e in font nullfont!
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.35 				& Value	&
-                   AoA
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
 Missing character: There is no A in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no A in font nullfont!
@@ -661,15 +668,6 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no 3 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no 9 in font nullfont!
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.36 		Max L/D & 117.1309 &
-                            8 \\ \hline
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
 Missing character: There is no 8 in font nullfont!
 Missing character: There is no M in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -680,15 +678,6 @@ Missing character: There is no 8 in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no 4 in font nullfont!
 Missing character: There is no 2 in font nullfont!
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.37 		Max $C_L$ & 1.8542 &
-                            16 \\ \hline
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
@@ -698,19 +687,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 \end{table}
+l.42 \end{table}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 21--41
+Overfull \hbox (20.0pt too wide) in paragraph at lines 34--43
 []
  []
 
 
-Overfull \hbox (13.13339pt too wide) in paragraph at lines 21--41
+Overfull \hbox (13.1334pt too wide) in paragraph at lines 34--43
 []
  []
 
@@ -728,5 +717,5 @@ Here is how much of TeX's memory you used:
  4033 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 18i,7n,12p,124b,148s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 18i,8n,12p,124b,148s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

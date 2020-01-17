@@ -38,7 +38,7 @@ n = 200;    % averaging over the last 200 points
 
 avg_cd = sum(cd(end-200:end))/(n+1);
 avg_cl = sum(cl(end-200:end))/(n+1);
-avg_cm = sum(cm(end-200:end))/(n+1);
+avg_cm = -sum(cm(end-200:end))/(n+1);
 
 end
 
@@ -46,10 +46,10 @@ function [aoa,cl,cd,cm] = xfoil_data
 
 data = importdata('xfoil_data');
 
-aoa = data(1,:);
-cl = data(2,:);
-cd = data(3,:);
-cm = data(5,:);
+aoa = data(:,1);
+cl = data(:,2);
+cd = data(:,3);
+cm = data(:,5);
 
 end
 
@@ -58,14 +58,19 @@ function graph_comparison(aoa,cl,cd,cm,aoa2,cl2,cd2,cm2)
 % Cl, Cd, Cm
 
 subplot(1,2,1)
-plot(aoa,cl,aoa2,cl2,aoa,cd,aoa2,cd2,aoa,cm,aoa2,cm2);
+plot(aoa,cl,aoa2,cl2,aoa,cd,aoa2,cd2,aoa,cm,aoa2,cm2,'linewidth',3);
+grid on; grid minor;
 title('Aerodynamic Coefficients vs. AoA');
-legend('C_l CFD','C_l Xfoil','C_d CFD','C_d Xfoil','C_m CFD','C_m Xfoil');
+legend('C_l CFD','C_l Xfoil','C_d CFD','C_d Xfoil','C_{m,1/4} CFD',...
+                                            'C_{m,1/4} Xfoil','Location','nw');
+set(gca,'fontname','times','fontsize',16)
 
 % L/D
 subplot(1,2,2)
-plot(aoa,cl./cd,aoa2,cl2./cd2);
+plot(aoa,cl./cd,aoa2,cl2./cd2,'linewidth',3);
+grid on; grid minor;
 title('L/D ratio vs. AoA');
 legend('L/D CFD','L/D Xfoil');
+set(gca,'fontname','times','fontsize',16)
 
 end
