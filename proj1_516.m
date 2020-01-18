@@ -2,7 +2,7 @@ function proj1_516
 
 % aoa = [-7 -4 -2 0 5 11 17 23];  % the plan
 
-aoa = [-7 -4 -2 0 12];
+aoa = [-7 -4 -2 0 5 8.5 12 14.5 17 22];
 
 cl = NaN(size(aoa));
 cd = NaN(size(aoa));
@@ -36,9 +36,20 @@ cm = cm.data(:,2);
 
 n = 200;    % averaging over the last 200 points
 
-avg_cd = sum(cd(end-200:end))/(n+1);
-avg_cl = sum(cl(end-200:end))/(n+1);
-avg_cm = -sum(cm(end-200:end))/(n+1);
+if AoA==17
+   disp('debug') 
+end
+
+
+if numel(cd) < n
+    avg_cd = sum(cd)/numel(cd);
+    avg_cl = sum(cl)/numel(cl);
+    avg_cm = -sum(cm)/numel(cm);
+else
+    avg_cd = sum(cd(end-200:end))/(n+1);
+    avg_cl = sum(cl(end-200:end))/(n+1);
+    avg_cm = -sum(cm(end-200:end))/(n+1);
+end
 
 end
 
