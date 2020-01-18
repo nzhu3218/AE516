@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  17 JAN 2020 11:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  18 JAN 2020 09:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -422,12 +422,13 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.21 \begin{table}
-                  []
+                  [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Missing character: There is no [ in font nullfont!
+Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 
 ! LaTeX Error: \caption outside float.
@@ -596,12 +597,13 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.34 \begin{table}
-                  []
+                  [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Missing character: There is no [ in font nullfont!
+Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 
 ! LaTeX Error: \caption outside float.
@@ -611,7 +613,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.35 \caption
-             {XFoil Predictions, Re = 1e9, ncrit = 9}
+             {XFoil Predictions, Re = 1e9, ncrit = 9 (clean wind tunnel)}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -646,6 +648,23 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 9 in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no ) in font nullfont!
 Missing character: There is no V in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!

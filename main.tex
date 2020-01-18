@@ -2,6 +2,25 @@
 \usepackage[utf8]{inputenc}
 \usepackage[margin=1in]{geometry}
 \usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{subcaption}
+
+% graphics package for conversion from tiff to png
+%\usepackage{epstopdf}
+%\epstopdfDeclareGraphicsRule{.tif}{png}{.png}{#1 \noexpand\OutputFile}
+%\AppendGraphicsExtensions{.tif}
+
+% second graphics rule we are trying
+%\DeclareGraphicsRule{.tif}{png}{.png}{ \noexpand\epstopdfcall{convert #1 \noexpand \OutputFile} }
+
+% third macro definition for conversion
+%\def\eattif#1.tif{#1}
+%\DeclareGraphicsRule{.tif}{png}{.png}{convert #1 \eattif #1-tif-converted-to.png}
+%\AppendGraphicsExtensions{.tif}
+
+% so latex cannot move tables around
+\usepackage{float}
+\restylefloat{table}
 
 \title{Evaluation of the Eppler 1210 Airfoil}
 
@@ -20,6 +39,8 @@
 
 \input{04_discuss}
 
+\input{appendix}
+
 
 %\begin{figure}[h!]
 %\centering
@@ -28,8 +49,8 @@
 %\label{fig:universe}
 %\end{figure}
 
-\section{Conclusion}
-``I always thought something was fundamentally wrong with the universe'' \citep{adams1995hitchhiker}
+%\section{Conclusion}
+%``I always thought something was fundamentally wrong with the universe'' \citep{adams1995hitchhiker}
 
 \bibliographystyle{plain}
 \bibliography{references}

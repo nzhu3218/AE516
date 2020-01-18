@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  17 JAN 2020 20:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  18 JAN 2020 09:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -60,13 +60,6 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 (/usr/local/texlive/2019/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip43
-\bibsep=\skip44
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count91
-)
 (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -87,21 +80,60 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
 )
-(./main.aux)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen113
+\captionmargin@=\dimen114
+\captionwidth=\dimen115
+\caption@tempdima=\dimen116
+\caption@indent=\dimen117
+\caption@parindent=\dimen118
+\caption@hangindent=\dimen119
+)
+\c@caption@flags=\count91
+\c@ContinuedFloat=\count92
+)
+\c@subfigure=\count93
+\c@subtable=\count94
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count95
+\float@exts=\toks18
+\float@box=\box27
+\@float@everytoks=\toks19
+\@floatcapt=\box28
+)
+\@float@every@table=\toks20
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count96
+) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -139,17 +171,17 @@ LaTeX Font Info:    ... okay on input line 11.
 
 (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count92
-\scratchdimen=\dimen113
-\scratchbox=\box27
-\nofMPsegments=\count93
-\nofMParguments=\count94
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count95
-\MPscratchDim=\dimen114
-\MPnumerator=\count96
-\makeMPintoPDFobject=\count97
-\everyMPtoPDFconversion=\toks19
+\scratchcounter=\count97
+\scratchdimen=\dimen120
+\scratchbox=\box29
+\nofMPsegments=\count98
+\nofMParguments=\count99
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count100
+\MPscratchDim=\dimen121
+\MPnumerator=\count101
+\makeMPintoPDFobject=\count102
+\everyMPtoPDFconversion=\toks22
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -197,12 +229,15 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 13.
+(Font)              <12> on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 13.
+(Font)              <8> on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 13.
+(Font)              <6> on input line 32.
 
 
 LaTeX Warning: No \author given.
@@ -225,74 +260,76 @@ Package pdftex.def Info: general_images/airfoil_image.jpg  used on input line 1
 6.
 (pdftex.def)             Requested size: 469.75502pt x 210.65445pt.
 
+[1
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 21.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 34.
-
-) (./02_methods.tex
-<general_images/farfield.jpg, id=2, 473.51906pt x 476.53032pt>
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./gener
+al_images/airfoil_image.jpg>]) (./02_methods.tex
+<general_images/farfield.jpg, id=16, 473.51906pt x 476.53032pt>
 File: general_images/farfield.jpg Graphic file (type jpg)
 <use general_images/farfield.jpg>
 Package pdftex.def Info: general_images/farfield.jpg  used on input line 11.
 (pdftex.def)             Requested size: 469.75502pt x 472.75537pt.
- [1
-
-{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./gener
-al_images/airfoil_image.jpg>]
-<general_images/nearfield.jpg, id=15, 609.02531pt x 416.30531pt>
+ [2]
+<general_images/nearfield.jpg, id=20, 609.02531pt x 416.30531pt>
 File: general_images/nearfield.jpg Graphic file (type jpg)
 <use general_images/nearfield.jpg>
 Package pdftex.def Info: general_images/nearfield.jpg  used on input line 18.
-(pdftex.def)             Requested size: 469.75502pt x 321.11508pt.
-<general_images/LE1.jpg, id=16, 874.76813pt x 603.75563pt>
+(pdftex.def)             Requested size: 422.77664pt x 289.00421pt.
+ [3 <./general_images/farfield.jpg>]
+<general_images/LE1.jpg, id=24, 874.76813pt x 603.75563pt>
 File: general_images/LE1.jpg Graphic file (type jpg)
 <use general_images/LE1.jpg>
 Package pdftex.def Info: general_images/LE1.jpg  used on input line 25.
-(pdftex.def)             Requested size: 469.75502pt x 324.21751pt.
-<general_images/TE1.jpg, id=17, 838.63312pt x 588.69937pt>
+(pdftex.def)             Requested size: 422.77664pt x 291.79852pt.
+<general_images/TE1.jpg, id=25, 838.63312pt x 588.69937pt>
 File: general_images/TE1.jpg Graphic file (type jpg)
 <use general_images/TE1.jpg>
 Package pdftex.def Info: general_images/TE1.jpg  used on input line 32.
-(pdftex.def)             Requested size: 469.75502pt x 329.75024pt.
-) (./03_results.tex)
-(./04_discuss.tex)
-
-Package natbib Warning: Citation `adams1995hitchhiker' on page 2 undefined on i
-nput line 32.
-
+(pdftex.def)             Requested size: 422.77664pt x 296.7743pt.
+ [4 <./general_images/nearfield.jpg> <./general_images/LE1.jpg>])
+(./03_results.tex [5 <./general_images/TE1.jpg>]) (./04_discuss.tex)
+(./appendix.tex
+<-7_deg/AoA_-7_cl.png, id=33, 1241.63875pt x 603.25375pt>
+File: -7_deg/AoA_-7_cl.png Graphic file (type png)
+<use -7_deg/AoA_-7_cl.png>
+Package pdftex.def Info: -7_deg/AoA_-7_cl.png  used on input line 20.
+(pdftex.def)             Requested size: 211.38832pt x 102.69905pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 21.
+<-7_deg/AoA_-7_cd.png, id=34, 1241.63875pt x 603.25375pt>
+File: -7_deg/AoA_-7_cd.png Graphic file (type png)
+<use -7_deg/AoA_-7_cd.png>
+Package pdftex.def Info: -7_deg/AoA_-7_cd.png  used on input line 26.
+(pdftex.def)             Requested size: 211.38832pt x 102.69905pt.
+)
 No file main.bbl.
-
-Package natbib Warning: There were undefined citations.
-
-[2] [3 <./general_images/farfield.jpg>] [4 <./general_images/nearfield.jpg>]
-[5 <./general_images/LE1.jpg>] [6 <./general_images/TE1.jpg>] (./main.aux) ) 
+[6 <./-7_deg/AoA_-7_cl.png> <./-7_deg/AoA_-7_cd.png>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 2370 strings out of 492616
- 34080 string characters out of 6129482
- 107927 words of memory out of 5000000
- 6254 multiletter control sequences out of 15000+600000
- 7895 words of font info for 28 fonts, out of 8000000 for 9000
+ 3612 strings out of 492616
+ 56126 string characters out of 6129482
+ 130354 words of memory out of 5000000
+ 7475 multiletter control sequences out of 15000+600000
+ 8807 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,9n,32p,271b,298s stack positions out of 5000i,500n,10000p,200000b,80000s
-</u
-sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr
-/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
-local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/lo
-cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
-l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
-texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/te
-xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
-ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
-e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (6 pages, 789059 bytes).
+ 42i,11n,40p,513b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/
+texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texl
+ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texliv
+e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/
+2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/20
+19/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2019/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2019/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2019/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on main.pdf (6 pages, 829262 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 84 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
