@@ -2,7 +2,7 @@ function proj1_516
 
 % aoa = [-7 -4 -2 0 5 11 17 23];  % the plan
 
-aoa = [-7 -4 -2 0 5];
+aoa = [-7 -4 -2 0 5 12];
 
 cl = NaN(size(aoa));
 cd = NaN(size(aoa));
