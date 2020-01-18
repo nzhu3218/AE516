@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  17 JAN 2020 11:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  17 JAN 2020 20:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -233,10 +233,32 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 34.
 
-) (./02_methods.tex) (./03_results.tex [1
+) (./02_methods.tex
+<general_images/farfield.jpg, id=2, 473.51906pt x 476.53032pt>
+File: general_images/farfield.jpg Graphic file (type jpg)
+<use general_images/farfield.jpg>
+Package pdftex.def Info: general_images/farfield.jpg  used on input line 11.
+(pdftex.def)             Requested size: 469.75502pt x 472.75537pt.
+ [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./gener
-al_images/airfoil_image.jpg>])
+al_images/airfoil_image.jpg>]
+<general_images/nearfield.jpg, id=15, 609.02531pt x 416.30531pt>
+File: general_images/nearfield.jpg Graphic file (type jpg)
+<use general_images/nearfield.jpg>
+Package pdftex.def Info: general_images/nearfield.jpg  used on input line 18.
+(pdftex.def)             Requested size: 469.75502pt x 321.11508pt.
+<general_images/LE1.jpg, id=16, 874.76813pt x 603.75563pt>
+File: general_images/LE1.jpg Graphic file (type jpg)
+<use general_images/LE1.jpg>
+Package pdftex.def Info: general_images/LE1.jpg  used on input line 25.
+(pdftex.def)             Requested size: 469.75502pt x 324.21751pt.
+<general_images/TE1.jpg, id=17, 838.63312pt x 588.69937pt>
+File: general_images/TE1.jpg Graphic file (type jpg)
+<use general_images/TE1.jpg>
+Package pdftex.def Info: general_images/TE1.jpg  used on input line 32.
+(pdftex.def)             Requested size: 469.75502pt x 329.75024pt.
+) (./03_results.tex)
 (./04_discuss.tex)
 
 Package natbib Warning: Citation `adams1995hitchhiker' on page 2 undefined on i
@@ -246,30 +268,31 @@ No file main.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-[2] (./main.aux) ) 
+[2] [3 <./general_images/farfield.jpg>] [4 <./general_images/nearfield.jpg>]
+[5 <./general_images/LE1.jpg>] [6 <./general_images/TE1.jpg>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 2345 strings out of 492616
- 33510 string characters out of 6129482
- 106895 words of memory out of 5000000
- 6233 multiletter control sequences out of 15000+600000
- 7588 words of font info for 27 fonts, out of 8000000 for 9000
+ 2370 strings out of 492616
+ 34080 string characters out of 6129482
+ 107927 words of memory out of 5000000
+ 6254 multiletter control sequences out of 15000+600000
+ 7895 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,9n,32p,271b,217s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
-pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
->
-Output written on main.pdf (2 pages, 121276 bytes).
+ 41i,9n,32p,271b,298s stack positions out of 5000i,500n,10000p,200000b,80000s
+</u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
+local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/lo
+cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
+texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/te
+xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on main.pdf (6 pages, 789059 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 68 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
