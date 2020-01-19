@@ -61,46 +61,40 @@ end
 
 function graph_comparison(aoa,cl,cd,cm,aoa2,cl2,cd2,cm2)
 
-error_plot = 0; % shows error bar
-
-% Cl, Cd, Cm plots
-
+% Cl, Cd, Cm
 if error_plot
     
-    % 10% error bar plots
-    err_cl = cl2 * 0.1;
-    err_cd = cd2 * 0.1;
-    errorbar(aoa2,cl2,err_cl); hold on;
-    errorbar(aoa2,cd2,err_cd)
-    plot(aoa,cl,'-o',aoa,cd,'-o','linewidth',3); hold off;
-    grid on; grid minor;
-    xlabel('AoA [deg]'); ylabel('Aerodynamic Coefficients [-]');
-    title('C_l and C_d vs. AoA with error bars');
-    legend('C_l Xfoil','C_d Xfoil','C_l CFD','C_d CFD','Location','nw');
-    set(gca,'fontname','times','fontsize',18)
+% 10% error bar plots
+err_cl = cl2 * 0.1;
+err_cd = cd2 * 0.1;
+errorbar(aoa2,cl2,err_cl); hold on;
+errorbar(aoa2,cd2,err_cd)
+plot(aoa,cl,'-o',aoa,cd,'-o','linewidth',3); hold off;
+grid on; grid minor;
+title('C_l and C_d vs. AoA with error bars');
+legend('C_l Xfoil','C_d Xfoil','C_l CFD','C_d CFD','C_{m,1/4} CFD',...
+                                            'C_{m,1/4} Xfoil','Location','nw');
+set(gca,'fontname','times','fontsize',18)
 
 else
     
-    % original plot
-    subplot(1,2,1);
-    plot(aoa,cl,'-o',aoa2,cl2,aoa,cd,'-o',aoa2,cd2,...
-         aoa,cm,'-o',aoa2,cm2,'linewidth',3);
-    xlabel('AoA [deg]'); ylabel('Aerodynamic Coefficients [-]');
-    grid on; grid minor;
-    title('Aerodynamic Coefficients vs. AoA');
-    legend('C_l CFD','C_l Xfoil','C_d CFD','C_d Xfoil','C_{m,1/4} CFD',...
-                                                'C_{m,1/4} Xfoil','Location','nw');
-    set(gca,'fontname','times','fontsize',18)
+% original plot
+% subplot(1,2,1)
+% plot(aoa,cl,'-o',aoa2,cl2,aoa,cd,'-o',aoa2,cd2,...
+%      aoa,cm,'-o',aoa2,cm2,'linewidth',3); hold on;
+grid on; grid minor;
+title('Aerodynamic Coefficients vs. AoA');
+legend('C_l CFD','C_l Xfoil','C_d CFD','C_d Xfoil','C_{m,1/4} CFD',...
+                                            'C_{m,1/4} Xfoil','Location','nw');
+set(gca,'fontname','times','fontsize',18)
 
-    % L/D
-    subplot(1,2,2)
-    plot(aoa,cl./cd,'-o',aoa2,cl2./cd2,'linewidth',3);
-    xlabel('AoA [deg]'); ylabel('L/D ratio [-]');
-    grid on; grid minor;
-    title('L/D ratio vs. AoA');
-    legend('L/D CFD','L/D Xfoil','location','nw');
-    set(gca,'fontname','times','fontsize',18)
+% L/D
+subplot(1,2,2)
+plot(aoa,cl./cd,'-o',aoa2,cl2./cd2,'linewidth',3); hold off;
+grid on; grid minor;
+title('L/D ratio vs. AoA');
+legend('L/D CFD','L/D Xfoil','location','nw');
+set(gca,'fontname','times','fontsize',18)
 
 end
-
 end

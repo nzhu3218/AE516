@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  18 JAN 2020 09:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  19 JAN 2020 01:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -103,37 +103,95 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \c@subfigure=\count93
 \c@subtable=\count94
 )
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen120
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen121
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count95
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count96
+\leftroot@=\count97
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count98
+\DOTSCASE@=\count99
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen122
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
+\dotsspace@=\muskip10
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
+\tag@help=\toks19
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
+\andhelp@=\toks20
+\eqnshift@=\dimen123
+\alignsep@=\dimen124
+\tagshift@=\dimen125
+\tagwidth@=\dimen126
+\totwidth@=\dimen127
+\lineht@=\dimen128
+\@envbody=\toks21
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
 (/usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count95
-\float@exts=\toks18
-\float@box=\box27
-\@float@everytoks=\toks19
-\@floatcapt=\box28
+\c@float@type=\count107
+\float@exts=\toks23
+\float@box=\box29
+\@float@everytoks=\toks24
+\@floatcapt=\box30
 )
-\@float@every@table=\toks20
+\@float@every@table=\toks25
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip43
-\bibsep=\skip44
+\bibhang=\skip46
+\bibsep=\skip47
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count96
+\c@NAT@ctr=\count108
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -171,17 +229,17 @@ LaTeX Font Info:    ... okay on input line 30.
 
 (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count97
-\scratchdimen=\dimen120
-\scratchbox=\box29
-\nofMPsegments=\count98
-\nofMParguments=\count99
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count100
-\MPscratchDim=\dimen121
-\MPnumerator=\count101
-\makeMPintoPDFobject=\count102
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count109
+\scratchdimen=\dimen129
+\scratchbox=\box31
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen130
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
+\everyMPtoPDFconversion=\toks27
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -232,12 +290,6 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 32.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 32.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 32.
 
 
 LaTeX Warning: No \author given.
@@ -249,10 +301,6 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 9.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 9.
 <general_images/airfoil_image.jpg, id=1, 569.12625pt x 255.20343pt>
 File: general_images/airfoil_image.jpg Graphic file (type jpg)
 <use general_images/airfoil_image.jpg>
@@ -287,49 +335,148 @@ File: general_images/TE1.jpg Graphic file (type jpg)
 Package pdftex.def Info: general_images/TE1.jpg  used on input line 32.
 (pdftex.def)             Requested size: 422.77664pt x 296.7743pt.
  [4 <./general_images/nearfield.jpg> <./general_images/LE1.jpg>])
-(./03_results.tex [5 <./general_images/TE1.jpg>]) (./04_discuss.tex)
-(./appendix.tex
-<-7_deg/AoA_-7_cl.png, id=33, 1241.63875pt x 603.25375pt>
-File: -7_deg/AoA_-7_cl.png Graphic file (type png)
-<use -7_deg/AoA_-7_cl.png>
-Package pdftex.def Info: -7_deg/AoA_-7_cl.png  used on input line 20.
-(pdftex.def)             Requested size: 211.38832pt x 102.69905pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 21.
-<-7_deg/AoA_-7_cd.png, id=34, 1241.63875pt x 603.25375pt>
-File: -7_deg/AoA_-7_cd.png Graphic file (type png)
-<use -7_deg/AoA_-7_cd.png>
-Package pdftex.def Info: -7_deg/AoA_-7_cd.png  used on input line 26.
-(pdftex.def)             Requested size: 211.38832pt x 102.69905pt.
-)
+(./03_results.tex [5 <./general_images/TE1.jpg>]
+<coeffs.jpg, id=33, 1766.6pt x 1302.8675pt>
+File: coeffs.jpg Graphic file (type jpg)
+<use coeffs.jpg>
+Package pdftex.def Info: coeffs.jpg  used on input line 42.
+(pdftex.def)             Requested size: 469.75502pt x 346.43117pt.
+ [6]
+<tecplot_stuff/cont_stream_-7.png, id=39, 844.15375pt x 750.805pt>
+File: tecplot_stuff/cont_stream_-7.png Graphic file (type png)
+<use tecplot_stuff/cont_stream_-7.png>
+Package pdftex.def Info: tecplot_stuff/cont_stream_-7.png  used on input line 5
+1.
+(pdftex.def)             Requested size: 281.85587pt x 250.68777pt.
+ [7 <./coeffs.jpg>]
+<tecplot_stuff/cont_stream_-4.png, id=44, 844.15375pt x 750.805pt>
+File: tecplot_stuff/cont_stream_-4.png Graphic file (type png)
+<use tecplot_stuff/cont_stream_-4.png>
+Package pdftex.def Info: tecplot_stuff/cont_stream_-4.png  used on input line 5
+8.
+(pdftex.def)             Requested size: 281.85587pt x 250.68777pt.
+<tecplot_stuff/cont_stream_-2.png, id=45, 844.15375pt x 750.805pt>
+File: tecplot_stuff/cont_stream_-2.png Graphic file (type png)
+<use tecplot_stuff/cont_stream_-2.png>
+Package pdftex.def Info: tecplot_stuff/cont_stream_-2.png  used on input line 6
+6.
+(pdftex.def)             Requested size: 281.85587pt x 250.68777pt.
+
+[8 <./tecplot_stuff/cont_stream_-7.png (PNG copy)> <./tecplot_stuff/cont_stream
+_-4.png (PNG copy)>]
+<tecplot_stuff/cont_stream_0.png, id=49, 844.15375pt x 750.805pt>
+File: tecplot_stuff/cont_stream_0.png Graphic file (type png)
+<use tecplot_stuff/cont_stream_0.png>
+Package pdftex.def Info: tecplot_stuff/cont_stream_0.png  used on input line 74
+.
+(pdftex.def)             Requested size: 281.85587pt x 250.68777pt.
+<tecplot_stuff/cont_stream_5.png, id=50, 844.15375pt x 750.805pt>
+File: tecplot_stuff/cont_stream_5.png Graphic file (type png)
+<use tecplot_stuff/cont_stream_5.png>
+Package pdftex.def Info: tecplot_stuff/cont_stream_5.png  used on input line 82
+.
+(pdftex.def)             Requested size: 281.85587pt x 250.68777pt.
+ [9 <./tecplot_stuff/cont_stream_-2.png (PNG copy)> <./tecplot_stuff/cont_strea
+m_0.png (PNG copy)>]
+<tecplot_stuff/cont_stream_12.png, id=54, 844.15375pt x 750.805pt>
+File: tecplot_stuff/cont_stream_12.png Graphic file (type png)
+<use tecplot_stuff/cont_stream_12.png>
+Package pdftex.def Info: tecplot_stuff/cont_stream_12.png  used on input line 9
+0.
+(pdftex.def)             Requested size: 281.85587pt x 250.68777pt.
+<tecplot_stuff/cont_stream_14_5.png, id=55, 844.15375pt x 750.805pt>
+File: tecplot_stuff/cont_stream_14_5.png Graphic file (type png)
+<use tecplot_stuff/cont_stream_14_5.png>
+Package pdftex.def Info: tecplot_stuff/cont_stream_14_5.png  used on input line
+ 97.
+(pdftex.def)             Requested size: 281.85587pt x 250.68777pt.
+ [10 <./tecplot_stuff/cont_stream_5.png (PNG copy)> <./tecplot_stuff/cont_strea
+m_12.png (PNG copy)>]
+<tecplot_stuff/cont_stream_17.png, id=59, 844.15375pt x 750.805pt>
+File: tecplot_stuff/cont_stream_17.png Graphic file (type png)
+<use tecplot_stuff/cont_stream_17.png>
+Package pdftex.def Info: tecplot_stuff/cont_stream_17.png  used on input line 1
+04.
+(pdftex.def)             Requested size: 281.85587pt x 250.68777pt.
+<tecplot_stuff/cont_stream_19_5.png, id=60, 844.15375pt x 750.805pt>
+File: tecplot_stuff/cont_stream_19_5.png Graphic file (type png)
+<use tecplot_stuff/cont_stream_19_5.png>
+Package pdftex.def Info: tecplot_stuff/cont_stream_19_5.png  used on input line
+ 111.
+(pdftex.def)             Requested size: 281.85587pt x 250.68777pt.
+ [11 <./tecplot_stuff/cont_stream_14_5.png (PNG copy)> <./tecplot_stuff/cont_st
+ream_17.png (PNG copy)>]
+<tecplot_stuff/cont_stream_22.png, id=64, 844.15375pt x 750.805pt>
+File: tecplot_stuff/cont_stream_22.png Graphic file (type png)
+<use tecplot_stuff/cont_stream_22.png>
+Package pdftex.def Info: tecplot_stuff/cont_stream_22.png  used on input line 1
+18.
+(pdftex.def)             Requested size: 281.85587pt x 250.68777pt.
+<tecplot_stuff/y_plus_0.png, id=65, 844.15375pt x 750.805pt>
+File: tecplot_stuff/y_plus_0.png Graphic file (type png)
+<use tecplot_stuff/y_plus_0.png>
+Package pdftex.def Info: tecplot_stuff/y_plus_0.png  used on input line 127.
+(pdftex.def)             Requested size: 281.85587pt x 250.68777pt.
+ [12 <./tecplot_stuff/cont_stream_19_5.png (PNG copy)> <./tecplot_stuff/cont_st
+ream_22.png (PNG copy)>]
+<tecplot_stuff/BL_0.png, id=69, 844.15375pt x 750.805pt>
+File: tecplot_stuff/BL_0.png Graphic file (type png)
+<use tecplot_stuff/BL_0.png>
+Package pdftex.def Info: tecplot_stuff/BL_0.png  used on input line 136.
+(pdftex.def)             Requested size: 281.85587pt x 250.68777pt.
+) (./04_discuss.tex [13 <./tecplot_stuff/y_plus_0.png (PNG copy)> <./tecplot_st
+uff/BL_0.png (PNG copy)>]
+<error_bar1.jpg, id=74, 949.5475pt x 1302.8675pt>
+File: error_bar1.jpg Graphic file (type jpg)
+<use error_bar1.jpg>
+Package pdftex.def Info: error_bar1.jpg  used on input line 8.
+(pdftex.def)             Requested size: 305.33789pt x 418.95389pt.
+<error_bar2.jpg, id=75, 949.5475pt x 1302.8675pt>
+File: error_bar2.jpg Graphic file (type jpg)
+<use error_bar2.jpg>
+Package pdftex.def Info: error_bar2.jpg  used on input line 15.
+(pdftex.def)             Requested size: 234.8775pt x 322.27681pt.
+<error_bar3.jpg, id=76, 949.5475pt x 1302.8675pt>
+File: error_bar3.jpg Graphic file (type jpg)
+<use error_bar3.jpg>
+Package pdftex.def Info: error_bar3.jpg  used on input line 20.
+(pdftex.def)             Requested size: 234.8775pt x 322.27681pt.
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 14--24
+[][] [] 
+ []
+
+) [14 <./error_bar1.jpg>]
 No file main.bbl.
-[6 <./-7_deg/AoA_-7_cl.png> <./-7_deg/AoA_-7_cd.png>] (./main.aux) ) 
+[15 <./error_bar2.jpg> <./error_bar3.jpg>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 3612 strings out of 492616
- 56126 string characters out of 6129482
- 130354 words of memory out of 5000000
- 7475 multiletter control sequences out of 15000+600000
- 8807 words of font info for 31 fonts, out of 8000000 for 9000
+ 4316 strings out of 492616
+ 65485 string characters out of 6129482
+ 143068 words of memory out of 5000000
+ 8140 multiletter control sequences out of 15000+600000
+ 12609 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,11n,40p,513b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local
-/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/
-texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/t
-exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texl
-ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texliv
-e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/
-2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/20
-19/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2019
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2019/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2019/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2019/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (6 pages, 829262 bytes).
+ 42i,13n,40p,991b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/20
+19/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/201
+9/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2019/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2019/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2019/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2019/texmf-
+dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/local/texlive/2019/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2019/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2019/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2019/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2019/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on main.pdf (15 pages, 1763395 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 134 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
