@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  19 JAN 2020 01:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  19 JAN 2020 09:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -429,54 +429,411 @@ uff/BL_0.png (PNG copy)>]
 <error_bar1.jpg, id=74, 949.5475pt x 1302.8675pt>
 File: error_bar1.jpg Graphic file (type jpg)
 <use error_bar1.jpg>
-Package pdftex.def Info: error_bar1.jpg  used on input line 8.
+Package pdftex.def Info: error_bar1.jpg  used on input line 7.
 (pdftex.def)             Requested size: 305.33789pt x 418.95389pt.
 <error_bar2.jpg, id=75, 949.5475pt x 1302.8675pt>
 File: error_bar2.jpg Graphic file (type jpg)
 <use error_bar2.jpg>
-Package pdftex.def Info: error_bar2.jpg  used on input line 15.
+Package pdftex.def Info: error_bar2.jpg  used on input line 14.
 (pdftex.def)             Requested size: 234.8775pt x 322.27681pt.
 <error_bar3.jpg, id=76, 949.5475pt x 1302.8675pt>
 File: error_bar3.jpg Graphic file (type jpg)
 <use error_bar3.jpg>
-Package pdftex.def Info: error_bar3.jpg  used on input line 20.
+Package pdftex.def Info: error_bar3.jpg  used on input line 19.
 (pdftex.def)             Requested size: 234.8775pt x 322.27681pt.
 
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 14--24
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 13--23
 [][] [] 
  []
 
-) [14 <./error_bar1.jpg>]
+) [14 <./error_bar1.jpg>] (./appendix.tex
+<-7_deg/AoA_-7_cl.png, id=80, 1241.63875pt x 603.25375pt>
+File: -7_deg/AoA_-7_cl.png Graphic file (type png)
+<use -7_deg/AoA_-7_cl.png>
+Package pdftex.def Info: -7_deg/AoA_-7_cl.png  used on input line 22.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<-7_deg/AoA_-7_cd.png, id=81, 1241.63875pt x 603.25375pt>
+File: -7_deg/AoA_-7_cd.png Graphic file (type png)
+<use -7_deg/AoA_-7_cd.png>
+Package pdftex.def Info: -7_deg/AoA_-7_cd.png  used on input line 28.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<-7_deg/AoA_-7_cm.png, id=82, 1241.63875pt x 603.25375pt>
+File: -7_deg/AoA_-7_cm.png Graphic file (type png)
+<use -7_deg/AoA_-7_cm.png>
+Package pdftex.def Info: -7_deg/AoA_-7_cm.png  used on input line 33.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<-7_deg/AoA_-7_resid.png, id=83, 1241.63875pt x 603.25375pt>
+File: -7_deg/AoA_-7_resid.png Graphic file (type png)
+<use -7_deg/AoA_-7_resid.png>
+Package pdftex.def Info: -7_deg/AoA_-7_resid.png  used on input line 38.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 21--42
+[][]  []
+ []
+
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 21--42
+[] [] 
+ []
+
+[15 <./error_bar2.jpg> <./error_bar3.jpg>]
+<-4_deg/AoA_-4_cl.png, id=90, 1241.63875pt x 603.25375pt>
+File: -4_deg/AoA_-4_cl.png Graphic file (type png)
+<use -4_deg/AoA_-4_cl.png>
+Package pdftex.def Info: -4_deg/AoA_-4_cl.png  used on input line 50.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<-4_deg/AoA_-4_cd.png, id=91, 1241.63875pt x 603.25375pt>
+File: -4_deg/AoA_-4_cd.png Graphic file (type png)
+<use -4_deg/AoA_-4_cd.png>
+Package pdftex.def Info: -4_deg/AoA_-4_cd.png  used on input line 56.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<-4_deg/AoA_-4_cm.png, id=92, 1241.63875pt x 603.25375pt>
+File: -4_deg/AoA_-4_cm.png Graphic file (type png)
+<use -4_deg/AoA_-4_cm.png>
+Package pdftex.def Info: -4_deg/AoA_-4_cm.png  used on input line 61.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<-4_deg/AoA_-4_resid.png, id=93, 1241.63875pt x 603.25375pt>
+File: -4_deg/AoA_-4_resid.png Graphic file (type png)
+<use -4_deg/AoA_-4_resid.png>
+Package pdftex.def Info: -4_deg/AoA_-4_resid.png  used on input line 66.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 49--70
+[][]  []
+ []
+
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 49--70
+[] [] 
+ []
+
+<-2_deg/AoA_-2_cl.png, id=94, 1241.63875pt x 603.25375pt>
+File: -2_deg/AoA_-2_cl.png Graphic file (type png)
+<use -2_deg/AoA_-2_cl.png>
+Package pdftex.def Info: -2_deg/AoA_-2_cl.png  used on input line 77.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<-2_deg/AoA_-2_cd.png, id=95, 1241.63875pt x 603.25375pt>
+File: -2_deg/AoA_-2_cd.png Graphic file (type png)
+<use -2_deg/AoA_-2_cd.png>
+Package pdftex.def Info: -2_deg/AoA_-2_cd.png  used on input line 83.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<-2_deg/AoA_-2_cm.png, id=96, 1241.63875pt x 603.25375pt>
+File: -2_deg/AoA_-2_cm.png Graphic file (type png)
+<use -2_deg/AoA_-2_cm.png>
+Package pdftex.def Info: -2_deg/AoA_-2_cm.png  used on input line 88.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<-2_deg/AoA_-2_resid.png, id=97, 1241.63875pt x 603.25375pt>
+File: -2_deg/AoA_-2_resid.png Graphic file (type png)
+<use -2_deg/AoA_-2_resid.png>
+Package pdftex.def Info: -2_deg/AoA_-2_resid.png  used on input line 93.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 76--97
+[][]  []
+ []
+
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 76--97
+[] [] 
+ []
+
+[16 <./-7_deg/AoA_-7_cl.png> <./-7_deg/AoA_-7_cd.png> <./-7_deg/AoA_-7_cm.png> 
+<./-7_deg/AoA_-7_resid.png> <./-4_deg/AoA_-4_cl.png> <./-4_deg/AoA_-4_cd.png> <
+./-4_deg/AoA_-4_cm.png> <./-4_deg/AoA_-4_resid.png>]
+<0_deg/AoA_0_cl.png, id=111, 1241.63875pt x 603.25375pt>
+File: 0_deg/AoA_0_cl.png Graphic file (type png)
+<use 0_deg/AoA_0_cl.png>
+Package pdftex.def Info: 0_deg/AoA_0_cl.png  used on input line 104.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<0_deg/AoA_0_cd.png, id=112, 1241.63875pt x 603.25375pt>
+File: 0_deg/AoA_0_cd.png Graphic file (type png)
+<use 0_deg/AoA_0_cd.png>
+Package pdftex.def Info: 0_deg/AoA_0_cd.png  used on input line 110.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<0_deg/AoA_0_cm.png, id=113, 1241.63875pt x 603.25375pt>
+File: 0_deg/AoA_0_cm.png Graphic file (type png)
+<use 0_deg/AoA_0_cm.png>
+Package pdftex.def Info: 0_deg/AoA_0_cm.png  used on input line 115.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<0_deg/AoA_0_resid.png, id=114, 1241.63875pt x 603.25375pt>
+File: 0_deg/AoA_0_resid.png Graphic file (type png)
+<use 0_deg/AoA_0_resid.png>
+Package pdftex.def Info: 0_deg/AoA_0_resid.png  used on input line 120.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 103--124
+[][]  []
+ []
+
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 103--124
+[] [] 
+ []
+
+<5_deg/AoA_5_cl.png, id=115, 1241.63875pt x 603.25375pt>
+File: 5_deg/AoA_5_cl.png Graphic file (type png)
+<use 5_deg/AoA_5_cl.png>
+Package pdftex.def Info: 5_deg/AoA_5_cl.png  used on input line 131.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<5_deg/AoA_5_cd.png, id=116, 1241.63875pt x 603.25375pt>
+File: 5_deg/AoA_5_cd.png Graphic file (type png)
+<use 5_deg/AoA_5_cd.png>
+Package pdftex.def Info: 5_deg/AoA_5_cd.png  used on input line 137.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<5_deg/AoA_5_cm.png, id=117, 1241.63875pt x 603.25375pt>
+File: 5_deg/AoA_5_cm.png Graphic file (type png)
+<use 5_deg/AoA_5_cm.png>
+Package pdftex.def Info: 5_deg/AoA_5_cm.png  used on input line 142.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<5_deg/AoA_5_resid.png, id=118, 1241.63875pt x 603.25375pt>
+File: 5_deg/AoA_5_resid.png Graphic file (type png)
+<use 5_deg/AoA_5_resid.png>
+Package pdftex.def Info: 5_deg/AoA_5_resid.png  used on input line 147.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 130--151
+[][]  []
+ []
+
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 130--151
+[] [] 
+ []
+
+[17 <./-2_deg/AoA_-2_cl.png> <./-2_deg/AoA_-2_cd.png> <./-2_deg/AoA_-2_cm.png> 
+<./-2_deg/AoA_-2_resid.png> <./0_deg/AoA_0_cl.png (PNG copy)> <./0_deg/AoA_0_cd
+.png (PNG copy)> <./0_deg/AoA_0_cm.png (PNG copy)> <./0_deg/AoA_0_resid.png (PN
+G copy)>]
+<8.5_deg/AoA_8_5_cl.png, id=126, 1241.63875pt x 603.25375pt>
+File: 8.5_deg/AoA_8_5_cl.png Graphic file (type png)
+<use 8.5_deg/AoA_8_5_cl.png>
+Package pdftex.def Info: 8.5_deg/AoA_8_5_cl.png  used on input line 158.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<8.5_deg/AoA_8_5_cd.png, id=127, 1241.63875pt x 603.25375pt>
+File: 8.5_deg/AoA_8_5_cd.png Graphic file (type png)
+<use 8.5_deg/AoA_8_5_cd.png>
+Package pdftex.def Info: 8.5_deg/AoA_8_5_cd.png  used on input line 164.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<8.5_deg/AoA_8_5_cm.png, id=128, 1241.63875pt x 603.25375pt>
+File: 8.5_deg/AoA_8_5_cm.png Graphic file (type png)
+<use 8.5_deg/AoA_8_5_cm.png>
+Package pdftex.def Info: 8.5_deg/AoA_8_5_cm.png  used on input line 169.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<8.5_deg/AoA_8_5_resid.png, id=129, 1241.63875pt x 603.25375pt>
+File: 8.5_deg/AoA_8_5_resid.png Graphic file (type png)
+<use 8.5_deg/AoA_8_5_resid.png>
+Package pdftex.def Info: 8.5_deg/AoA_8_5_resid.png  used on input line 174.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 157--178
+[][]  []
+ []
+
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 157--178
+[] [] 
+ []
+
+<12_deg/AoA_12_cl.png, id=130, 1241.63875pt x 603.25375pt>
+File: 12_deg/AoA_12_cl.png Graphic file (type png)
+<use 12_deg/AoA_12_cl.png>
+Package pdftex.def Info: 12_deg/AoA_12_cl.png  used on input line 185.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<12_deg/AoA_12_cd.png, id=131, 1241.63875pt x 603.25375pt>
+File: 12_deg/AoA_12_cd.png Graphic file (type png)
+<use 12_deg/AoA_12_cd.png>
+Package pdftex.def Info: 12_deg/AoA_12_cd.png  used on input line 191.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<12_deg/AoA_12_cm.png, id=132, 1241.63875pt x 603.25375pt>
+File: 12_deg/AoA_12_cm.png Graphic file (type png)
+<use 12_deg/AoA_12_cm.png>
+Package pdftex.def Info: 12_deg/AoA_12_cm.png  used on input line 196.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<12_deg/AoA_12_resid.png, id=133, 1241.63875pt x 603.25375pt>
+File: 12_deg/AoA_12_resid.png Graphic file (type png)
+<use 12_deg/AoA_12_resid.png>
+Package pdftex.def Info: 12_deg/AoA_12_resid.png  used on input line 201.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 184--205
+[][]  []
+ []
+
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 184--205
+[] [] 
+ []
+
+[18 <./5_deg/AoA_5_cl.png> <./5_deg/AoA_5_cd.png> <./5_deg/AoA_5_cm.png> <./5_d
+eg/AoA_5_resid.png> <./8.5_deg/AoA_8_5_cl.png (PNG copy)> <./8.5_deg/AoA_8_5_cd
+.png (PNG copy)> <./8.5_deg/AoA_8_5_cm.png (PNG copy)> <./8.5_deg/AoA_8_5_resid
+.png (PNG copy)>]
+<14.5_deg/AoA_14_5_cl.png, id=141, 1241.63875pt x 603.25375pt>
+File: 14.5_deg/AoA_14_5_cl.png Graphic file (type png)
+<use 14.5_deg/AoA_14_5_cl.png>
+Package pdftex.def Info: 14.5_deg/AoA_14_5_cl.png  used on input line 212.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<14.5_deg/AoA_14_5_cd.png, id=142, 1241.63875pt x 603.25375pt>
+File: 14.5_deg/AoA_14_5_cd.png Graphic file (type png)
+<use 14.5_deg/AoA_14_5_cd.png>
+Package pdftex.def Info: 14.5_deg/AoA_14_5_cd.png  used on input line 218.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<14.5_deg/AoA_14_5_cm.png, id=143, 1241.63875pt x 603.25375pt>
+File: 14.5_deg/AoA_14_5_cm.png Graphic file (type png)
+<use 14.5_deg/AoA_14_5_cm.png>
+Package pdftex.def Info: 14.5_deg/AoA_14_5_cm.png  used on input line 223.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<14.5_deg/AoA_14_5_resid.png, id=144, 1241.63875pt x 603.25375pt>
+File: 14.5_deg/AoA_14_5_resid.png Graphic file (type png)
+<use 14.5_deg/AoA_14_5_resid.png>
+Package pdftex.def Info: 14.5_deg/AoA_14_5_resid.png  used on input line 228.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 211--232
+[][]  []
+ []
+
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 211--232
+[] [] 
+ []
+
+<17_deg/AoA_17_cl.png, id=145, 1241.63875pt x 603.25375pt>
+File: 17_deg/AoA_17_cl.png Graphic file (type png)
+<use 17_deg/AoA_17_cl.png>
+Package pdftex.def Info: 17_deg/AoA_17_cl.png  used on input line 239.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<17_deg/AoA_17_cd.png, id=146, 1241.63875pt x 603.25375pt>
+File: 17_deg/AoA_17_cd.png Graphic file (type png)
+<use 17_deg/AoA_17_cd.png>
+Package pdftex.def Info: 17_deg/AoA_17_cd.png  used on input line 245.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<17_deg/AoA_17_cm.png, id=147, 1241.63875pt x 603.25375pt>
+File: 17_deg/AoA_17_cm.png Graphic file (type png)
+<use 17_deg/AoA_17_cm.png>
+Package pdftex.def Info: 17_deg/AoA_17_cm.png  used on input line 250.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<17_deg/AoA_17_resid.png, id=148, 1241.63875pt x 603.25375pt>
+File: 17_deg/AoA_17_resid.png Graphic file (type png)
+<use 17_deg/AoA_17_resid.png>
+Package pdftex.def Info: 17_deg/AoA_17_resid.png  used on input line 255.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 238--259
+[][]  []
+ []
+
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 238--259
+[] [] 
+ []
+
+[19 <./12_deg/AoA_12_cl.png> <./12_deg/AoA_12_cd.png> <./12_deg/AoA_12_cm.png> 
+<./12_deg/AoA_12_resid.png> <./14.5_deg/AoA_14_5_cl.png (PNG copy)> <./14.5_deg
+/AoA_14_5_cd.png (PNG copy)> <./14.5_deg/AoA_14_5_cm.png (PNG copy)> <./14.5_de
+g/AoA_14_5_resid.png (PNG copy)>]
+<19.5_deg/AoA_19_5_cl.png, id=157, 1241.63875pt x 603.25375pt>
+File: 19.5_deg/AoA_19_5_cl.png Graphic file (type png)
+<use 19.5_deg/AoA_19_5_cl.png>
+Package pdftex.def Info: 19.5_deg/AoA_19_5_cl.png  used on input line 266.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<19.5_deg/AoA_19_5_cd.png, id=158, 1241.63875pt x 603.25375pt>
+File: 19.5_deg/AoA_19_5_cd.png Graphic file (type png)
+<use 19.5_deg/AoA_19_5_cd.png>
+Package pdftex.def Info: 19.5_deg/AoA_19_5_cd.png  used on input line 272.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<19.5_deg/AoA_19_5_cm.png, id=159, 1241.63875pt x 603.25375pt>
+File: 19.5_deg/AoA_19_5_cm.png Graphic file (type png)
+<use 19.5_deg/AoA_19_5_cm.png>
+Package pdftex.def Info: 19.5_deg/AoA_19_5_cm.png  used on input line 277.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<19.5_deg/AoA_19_5_resid.png, id=160, 1241.63875pt x 603.25375pt>
+File: 19.5_deg/AoA_19_5_resid.png Graphic file (type png)
+<use 19.5_deg/AoA_19_5_resid.png>
+Package pdftex.def Info: 19.5_deg/AoA_19_5_resid.png  used on input line 282.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 265--286
+[][]  []
+ []
+
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 265--286
+[] [] 
+ []
+
+<22_deg/AoA_22_cl.png, id=161, 1241.63875pt x 603.25375pt>
+File: 22_deg/AoA_22_cl.png Graphic file (type png)
+<use 22_deg/AoA_22_cl.png>
+Package pdftex.def Info: 22_deg/AoA_22_cl.png  used on input line 293.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<22_deg/AoA_22_cd.png, id=162, 1241.63875pt x 603.25375pt>
+File: 22_deg/AoA_22_cd.png Graphic file (type png)
+<use 22_deg/AoA_22_cd.png>
+Package pdftex.def Info: 22_deg/AoA_22_cd.png  used on input line 299.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<22_deg/AoA_22_cm.png, id=163, 1241.63875pt x 603.25375pt>
+File: 22_deg/AoA_22_cm.png Graphic file (type png)
+<use 22_deg/AoA_22_cm.png>
+Package pdftex.def Info: 22_deg/AoA_22_cm.png  used on input line 304.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+<22_deg/AoA_22_resid.png, id=164, 1241.63875pt x 603.25375pt>
+File: 22_deg/AoA_22_resid.png Graphic file (type png)
+<use 22_deg/AoA_22_resid.png>
+Package pdftex.def Info: 22_deg/AoA_22_resid.png  used on input line 309.
+(pdftex.def)             Requested size: 234.8775pt x 114.11313pt.
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 292--313
+[][]  []
+ []
+
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 292--313
+[] [] 
+ []
+
+) [20 <./17_deg/AoA_17_cl.png (PNG copy)> <./17_deg/AoA_17_cd.png (PNG copy)> <
+./17_deg/AoA_17_cm.png (PNG copy)> <./17_deg/AoA_17_resid.png (PNG copy)> <./19
+.5_deg/AoA_19_5_cl.png (PNG copy)> <./19.5_deg/AoA_19_5_cd.png (PNG copy)> <./1
+9.5_deg/AoA_19_5_cm.png (PNG copy)> <./19.5_deg/AoA_19_5_resid.png (PNG copy)>]
 No file main.bbl.
-[15 <./error_bar2.jpg> <./error_bar3.jpg>] (./main.aux) ) 
+[21 <./22_deg/AoA_22_cl.png (PNG copy)> <./22_deg/AoA_22_cd.png (PNG copy)> <./
+22_deg/AoA_22_cm.png (PNG copy)> <./22_deg/AoA_22_resid.png (PNG copy)>]
+(./main.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4316 strings out of 492616
- 65485 string characters out of 6129482
+ 4637 strings out of 492616
+ 72378 string characters out of 6129482
  143068 words of memory out of 5000000
- 8140 multiletter control sequences out of 15000+600000
+ 8404 multiletter control sequences out of 15000+600000
  12609 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,13n,40p,991b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/20
-19/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/201
-9/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2019/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2019/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2019/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2019/texmf-
-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/local/texlive/2019/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2019/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2019/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2019/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2019/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (15 pages, 1763395 bytes).
+ 42i,13n,40p,1131b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/
+texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texliv
+e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/
+2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (21 pages, 2132945 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 225 PDF objects out of 1000 (max. 8388607)
+ 99 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 326 words of extra memory for PDF output out of 10000 (max. 10000000)
 

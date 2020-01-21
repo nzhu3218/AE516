@@ -1,31 +1,23 @@
 function proj1_516
 
-% aoa = [-7 -4 -2 0 5 11 17 23];  % the plan
+aoa = [-7 -4 -2 0 5 8.5 12 14.5 17 19.5 22];    % AoAs collected by CFD
 
-aoa = [-7 -4 -2 0 5 8.5 12 14.5 17 19.5 22];
-
-cl = NaN(size(aoa));
+cl = NaN(size(aoa));    % preallocation
 cd = NaN(size(aoa));
 cm = NaN(size(aoa));
 
 for i = 1:length(aoa)
-   
     [cl(i),cd(i),cm(i)] = readAoA(aoa(i));
-    
 end
 
-% Cl, Cd, Cm, L/D and compare against Xfoil
-% table of the above values vs AoA
+[aoa2,cl2,cd2,cm2] = xfoil_data;  % extracting xfoil data
 
-[aoa2,cl2,cd2,cm2] = xfoil_data;
-
-graph_comparison(aoa,cl,cd,cm,aoa2,cl2,cd2,cm2);
+graph_comparison(aoa,cl,cd,cm,aoa2,cl2,cd2,cm2); % plotting
 
 end
 
 function [avg_cl,avg_cd,avg_cm] = readAoA(AoA)
 
-disp(AoA)
 cd = importdata([num2str(AoA), '_deg/report-drag-rfile.out']);
 cl = importdata([num2str(AoA), '_deg/report-lift-rfile.out']);
 cm = importdata([num2str(AoA), '_deg/report-mom-rfile.out']);
@@ -34,16 +26,16 @@ cd = cd.data(:,2);
 cl = cl.data(:,2);
 cm = cm.data(:,2);
 
-n = 200; % averaging over the last 200 points or however many is available
+n = 300; % averaging over the last 200 points or however many is available
 
 if numel(cd) < n
     avg_cd = sum(cd)/numel(cd);
     avg_cl = sum(cl)/numel(cl);
     avg_cm = -sum(cm)/numel(cm);
 else
-    avg_cd = sum(cd(end-200:end))/(n+1);
-    avg_cl = sum(cl(end-200:end))/(n+1);
-    avg_cm = -sum(cm(end-200:end))/(n+1);
+    avg_cd = sum(cd(end-n:end))/(n+1);
+    avg_cl = sum(cl(end-n:end))/(n+1);
+    avg_cm = -sum(cm(end-n:end))/(n+1);
 end
 
 end
@@ -67,7 +59,7 @@ error_plot = 0; % shows error bar
 
 if error_plot
     
-    % 10% error bar plots
+    % 10% error bar plots for Cl and Cd
     err_cl = cl2 * 0.1;
     err_cd = cd2 * 0.1;
     errorbar(aoa2,cl2,err_cl); hold on;
@@ -81,7 +73,7 @@ if error_plot
 
 else
     
-    % original plot
+    % aerodynamic coefficients
     subplot(1,2,1);
     plot(aoa,cl,'-o',aoa2,cl2,aoa,cd,'-o',aoa2,cd2,...
          aoa,cm,'-o',aoa2,cm2,'linewidth',3);
