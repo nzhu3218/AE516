@@ -39,10 +39,10 @@
 	\centering
 	\begin{tabular}{|l|p{4.5in}|} \hline
 				 & Value \\ \hline \hline
-		Cell count & inner mesh: \newline outer mesh \\ \hline
-		Normal-to-wall dist & 1e-5 (UNITS?) \\ \hline
-		Boundary condition & airfoil surface: wall, $\Delta$s=1e-5 \newline (might have to specify at inlet and such, check) \\ \hline
-		Reference values & A bunch of different ones here, 1.789e-05 kgm$^{-1}$s$^{-1}$ \\ \hline
+		Cell count & inner mesh: 11,890\newline outer mesh: 6204 \\ \hline
+		Normal-to-wall dist & 1e-5 \\ \hline
+		Boundary conditions & left wall: velocity inlet \newline right wall: pressure outlet \newline airfoil surface: wall \newline Upper and lower surfaces: tunnel \\ \hline
+		Reference values & Area: 1 [m$^2$] \newline Density: 1.225 [kgm$^{-3}$] \newline Pressure: 0 [Pa] \newline Temperature: 290 [K] \newline Velocity: 17.88 [m/s] \newline Viscosity: 1.789e-05 [kgm$^{-1}$s$^{-1}$] \newline Ratio of specific heat: 1.4 \\ \hline
 		Submodels & viscous: transitional SST \\ \hline
 		Numerical Schemes & \textbf{gradient}: least-squares cell based \newline \textbf{pressure}: second order \newline \textbf{momentum}: second order upwind \newline \textbf{turbulent kinetic energy}: first order upwind \newline \textbf{specific dissipation rate}: first order upwind \newline \textbf{specific dissipation rate}: first order upwind \newline \textbf{intermittency}: first order upwind \newline \textbf{momentum thickness Re}: first order upwind \\ \hline
 	\end{tabular}

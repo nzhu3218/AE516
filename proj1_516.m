@@ -38,6 +38,9 @@ else
     avg_cm = -sum(cm(end-n:end))/(n+1);
 end
 
+% shifting moment about leading edge to quarter chord
+avg_cm = avg_cm + avg_cl/4;
+
 end
 
 function [aoa,cl,cd,cm] = xfoil_data
@@ -53,7 +56,7 @@ end
 
 function graph_comparison(aoa,cl,cd,cm,aoa2,cl2,cd2,cm2)
 
-error_plot = 0; % shows error bar
+error_plot = 0; % 1 shows error bar
 
 % Cl, Cd, Cm plots
 
