@@ -1,17 +1,17 @@
 \section{Results}
 
-\begin{enumerate}
-	\item plot lift and drag coeff histories for proof of convergence history for ALL Runs (appendix)
-	\item Table of $C_l$, $C_d$, L/D, $C_m$
-	\item plots of the items in the table and compared against Xfoil data at the closest Re \# (take directly from airfoiltools.com)
-	\item streamlines and pressure contours to depict flow near airfoil
-	\begin{itemize}
-		\item 1 plot for each case
-		\item use the same contour levels
-	\end{itemize}
-	\item y+ curves (for $0^\circ$ AoA case)
-	\item plot showing turbulent boundary layer development ($0^\circ$ AoA case)
-\end{enumerate}
+%\begin{enumerate}
+%	\item plot lift and drag coeff histories for proof of convergence history for ALL Runs (appendix)
+%	\item Table of $C_l$, $C_d$, L/D, $C_m$
+%	\item plots of the items in the table and compared against Xfoil data at the closest Re \# (take directly from airfoiltools.com)
+%	\item streamlines and pressure contours to depict flow near airfoil
+%	\begin{itemize}
+%		\item 1 plot for each case
+%		\item use the same contour levels
+%	\end{itemize}
+%	\item y+ curves (for $0^\circ$ AoA case)
+%	\item plot showing turbulent boundary layer development ($0^\circ$ AoA case)
+%\end{enumerate}
 
 \subsection{Plots of convergence history for all runs}
 See Appendix A
@@ -37,23 +37,43 @@ See Appendix A
 %\end{tabular}
 %\end{table}
 
-\begin{table}[]
+%\begin{table}[H]
+%\centering
+%\caption{Results of CFD calculation}
+%\begin{tabular}{|r|r|r|r|r|}
+%\hline
+%\textbf{AoA} [$^\circ$]  & $\boldsymbol{C_l}$  & $\boldsymbol{C_d}$ & $\boldsymbol{C_{m,c/4}}$  & \textbf{L/D}   \\ \hline \hline
+%-7   & -0.247 & 0.013 & -0.094 & -19.350 \\ \hline
+%-4   & 0.077  & 0.010 & -0.091 & 7.356   \\ \hline
+%-2   & 0.295  & 0.010 & -0.090 & 28.122  \\ \hline
+%0    & 0.516  & 0.011 & -0.089 & 48.617  \\ \hline
+%5    & 1.074  & 0.012 & -0.088 & 90.362  \\ \hline
+%8.5  & 1.436  & 0.017 & -0.083 & 82.787  \\ \hline
+%12   & 1.736  & 0.026 & -0.073 & 66.487  \\ \hline
+%14.5 & 1.847  & 0.038 & -0.063 & 48.517  \\ \hline
+%17   & 1.646  & 0.089 & -0.074 & 18.489  \\ \hline
+%19.5 & 1.390  & 0.164 & -0.100 & 8.498   \\ \hline
+%22   & 1.271  & 0.234 & -0.126 & 5.431   \\ \hline
+%\end{tabular}
+%\end{table}
+
+\begin{table}[H]
 \centering
 \caption{Results of CFD calculation}
-\begin{tabular}{|r|r|r|r|r|}
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
 \hline
-\textbf{AoA} [$^\circ$]  & $\boldsymbol{C_l}$  & $\boldsymbol{C_d}$ & $\boldsymbol{C_{m,c/4}}$  & \textbf{L/D}   \\ \hline \hline
--7   & -0.247 & 0.013 & -0.094 & -19.350 \\ \hline
--4   & 0.077  & 0.010 & -0.091 & 7.356   \\ \hline
--2   & 0.295  & 0.010 & -0.090 & 28.122  \\ \hline
-0    & 0.516  & 0.011 & -0.089 & 48.617  \\ \hline
-5    & 1.074  & 0.012 & -0.088 & 90.362  \\ \hline
-8.5  & 1.436  & 0.017 & -0.083 & 82.787  \\ \hline
-12   & 1.736  & 0.026 & -0.073 & 66.487  \\ \hline
-14.5 & 1.847  & 0.038 & -0.063 & 48.517  \\ \hline
-17   & 1.646  & 0.089 & -0.074 & 18.489  \\ \hline
-19.5 & 1.390  & 0.164 & -0.100 & 8.498   \\ \hline
-22   & 1.271  & 0.234 & -0.126 & 5.431   \\ \hline
+AoA  & $C_l$     & $C_d$    & $C_m$     & L/D     & Lift [N]    & Drag [N]   & Moment [N$\cdot$m]  \\ \hline \hline
+-7   & -0.247 & 0.013 & -0.094 & -19.350 & -48.317 & 2.497  & -18.332 \\ \hline
+-4   & 0.077  & 0.010 & -0.091 & 7.356   & 15.123  & 2.056  & -17.808 \\ \hline
+-2   & 0.295  & 0.010 & -0.090 & 28.122  & 57.755  & 2.054  & -17.540 \\ \hline
+0    & 0.516  & 0.011 & -0.089 & 48.617  & 100.953 & 2.076  & -17.422 \\ \hline
+5    & 1.074  & 0.012 & -0.088 & 90.362  & 210.222 & 2.326  & -17.186 \\ \hline
+8.5  & 1.436  & 0.017 & -0.083 & 82.787  & 281.182 & 3.396  & -16.229 \\ \hline
+12   & 1.736  & 0.026 & -0.073 & 66.487  & 339.897 & 5.112  & -14.334 \\ \hline
+14.5 & 1.847  & 0.038 & -0.063 & 48.517  & 361.756 & 7.456  & -12.288 \\ \hline
+17   & 1.646  & 0.089 & -0.074 & 18.489  & 322.236 & 17.429 & -14.557 \\ \hline
+19.5 & 1.390  & 0.164 & -0.100 & 8.498   & 272.115 & 32.019 & -19.526 \\ \hline
+22   & 1.271  & 0.234 & -0.126 & 5.431   & 248.919 & 45.834 & -24.579 \\ \hline
 \end{tabular}
 \end{table}
 
@@ -63,6 +83,14 @@ See Appendix A
 	\caption{Comparison of aerodynamic coefficients from Xfoil and CFD}
 \label{fig:coeffs}
 \end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{forces.jpg}
+	\caption{Aerodynamics forces and moments from CFD}
+\label{fig:forces}
+\end{figure}
+
 
 \subsection{Pressure contours and streamlines}
 

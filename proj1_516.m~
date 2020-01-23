@@ -92,22 +92,22 @@ elseif drag_error_plot
     
 elseif forces_plot
     
-    rho = 1.225;    % [kg/m^3]
-    V = 17.88;      % [m/s]
-    q = 1/2*rho*V^2;    % [Pa]
-    c = 1;              % chord length
+    figure;
     
-    % dimensionalization
+    rho = 1.225;
+    V = 17.88;
+    q = 1/2*rho*V^2;
+    c = 1;
+    
     L = cl*q*c;
     D = cd*q*c;
-    M = cm*q*c^2;
+    M = cl*q*c^2;
     
-    figure;
     plot(aoa,L,'-o',aoa,D,'-o',aoa,M,'-o','linewidth',3);
     
     xlabel('AoA [deg]'); grid on; grid minor;
     ylabel('Aerodynamic Forces and Moments [N, N.m]');
-    title('Aerodynamic Forces and Moments vs. AoA');
+    title('Aerodynamic Aerodynamic vs. AoA');
     
     legend('Lift','Drag','Moment, c/4','Location','nw');
     set(gca,'fontname','times','fontsize',18)
